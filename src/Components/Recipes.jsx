@@ -15,7 +15,7 @@ const Recipes = ({ addRecipeToQueue }) => {
         {recipes.map((recipe, index) => (
           <div
             key={index}
-            className="card card-compact bg-base-100 my-4 shadow-xl"
+            className="border-2 card card-compact bg-base-100 my-4 shadow-xl"
           >
             <figure className="p-4">
               <img
