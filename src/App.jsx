@@ -1,15 +1,32 @@
+import Banner from "./Components/Banner";
+import Header from "./Components/Header";
+import OurFood from "./Components/OurFood";
+
+
 
 
 function App() {
 
 
-  return (
 
+  return (
     <>
-      <h1 className="bg-red-500">Test</h1>
+
+
+    <main className="w-10/12 mx-auto">
+      {/* Header Component */}
+        <Header />
+        {/* Banner Component  */}
+        <Banner />
+
+        {/* Our Food Component */}
+        <OurFood />
+      
+    </main>
+
+      
     </>
-    
-  )
+  );
 }
 
-export default App
+export default App;
